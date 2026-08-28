@@ -1,0 +1,20 @@
+# Local database configuration
+db.php
+
+# Uploaded voter/contestant images
+uploads/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp

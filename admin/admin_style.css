@@ -36,11 +36,15 @@ body {
   vertical-align: middle !important;
 }
 /* Footer */
-footer {
-  background-color: #004080;
+.footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
 }
 /* Responsive Fixes */
 @media (max-width: 768px) {
@@ -78,11 +82,6 @@ footer {
 }
 .table tbody tr:hover {
   background-color: #f1f5ff;
-}
-/*Footer */
-footer {
-  background-color: darkblue;
-  color: white;
 }
 /*Responsive spacing for mobile */
 @media (max-width: 768px) {

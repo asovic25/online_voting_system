@@ -107,7 +107,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css?v=5">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<style>
+</head>
+<body>
+  <style>
 .password-wrapper {
   position: relative;
   display: flex;
@@ -136,8 +138,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   color: #198754;
 }
 </style>
-</head>
-<body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <div class="container-fluid">

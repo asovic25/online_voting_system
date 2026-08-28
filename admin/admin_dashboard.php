@@ -120,6 +120,9 @@ unset($_SESSION['success'], $_SESSION['error']);
   </table>
   </div>
 </div>
+<footer class="text-center text-white py-3 footer bg-primary">
+  <p class="mb-0">&copy; <?php echo date("Y"); ?> Online Voting System. All Rights Reserved.</p>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

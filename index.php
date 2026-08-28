@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A secure and user-friendly Online Voting System that allows registered voters to cast their votes electronically for their preferred contestants. Designed for transparency, efficiency, and real-time result tracking, ensuring a fair and reliable election process.">
+    <meta name="description" content="A user-friendly Online Voting System that allows registered voters to cast votes electronically for their preferred contestants, with vote validation and real-time result tracking.">
     <meta name="keywords" content="online voting system, digital voting, secure election platform, electronic voting, online election, voting software, contestant voting, web voting system, secure online vote">
     <title>Online Voting System | Secure Digital Election Platform</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css?v=4">
-    <link rel="canonical" href="http://localhost/online_voting_system/">
+  
 </head>
 <body>
     <!-- ===== Navbar ===== -->
@@ -34,7 +34,7 @@
         <div class="overlay"></div>
         <div class="hero-content">
             <h1 class="fw-bold mb-3">Empowering Transparent Elections</h1>
-            <p class="lead"><i>A secure platform for free and fair online voting.</i></p>
+            <p class="lead"><i>A reliable platform for simple and transparent online voting.</i></p>
             <a href="register_voter.php" class="btn btn-light mt-3 fw-semibold">Get Started</a>
         </div>
     </section>
@@ -43,28 +43,28 @@
         <h2 class="fw-bold mb-4">Welcome to the Online Voting System</h2>
         <p class="text-primary mb-5">Choose an action below to get started.</p>
         <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="id-card p-4">
                     <h3>Register Contestant</h3>
                     <p>Contestants can register and get a unique contestant ID.</p>
                     <a href="register_contestant.php"><button>Register</button></a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="id-card p-4">
                     <h3>Register Voter</h3>
                     <p>Voters can sign up and receive their voter ID to participate.</p>
                     <a href="register_voter.php"><button>Register</button></a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="id-card p-4">
                     <h3>Cast Your Vote</h3>
                     <p>Submit your vote securely for your preferred contestant.</p>
                     <a href="vote.php"><button>Vote Now</button></a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="id-card p-4">
                     <h3>View Results</h3>
                     <p>Check live election results after voting is concluded.</p>
